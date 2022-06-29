@@ -10,7 +10,15 @@ avgValue([100, 60, 64]); // => 74.66666666666667
 ***********************************************************************/
 
 function avgValue(array) {
-  // your code here...
+  let num = 0;
+
+  for (let i = 0; i < array.length; i++) {
+    num += array[i];
+
+  }
+
+  return num / array.length;
+
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
