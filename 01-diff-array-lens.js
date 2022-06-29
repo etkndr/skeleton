@@ -1,3 +1,8 @@
+// STARTING PLAN
+// check if arr1 length === arr2 length
+// if !==, return true
+// otherwise return false
+
 /***********************************************************************
 Write a function `diffArrayLen(arr1, arr2)` that takes two arrays. The
 function should return true if the arrays have different lengths. The
